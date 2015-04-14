@@ -6,13 +6,13 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          'The Jekyll Butler'
+title:            Matheus Ikeda
+tagline:          'Iniciação Científica'
 description:      'Base theme for Jekyll themes by @mdo.'
 url:              http://getpoole.com
 
 author:
-  name:           'Mark Otto'
+  name:           'Matheus Ikeda'
   url:            https://twitter.com/mdo
 
 paginate:         1
