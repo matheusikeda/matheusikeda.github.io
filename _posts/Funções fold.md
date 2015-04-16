@@ -7,16 +7,17 @@ title: Funções de alta ordem
 Sucintamente, são funções que tem como parâmetros outras funções, podendo ou não retornar uma outra função. Uma função deste tipo muito conhecida e usada que ilustra seu funcionamento é a zipWith.
 Código:
 {% highlight haskell %}
+
 	zipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
 	zipWith _ [] _ = []
 	zipWith _ _ [] = []
 	zipWith f (x:xs) (y:ys) = f x y : zipWith f xs ys
-	
 {% endhighlight %}  
 Na declaração do tipo, observa-se que a mesma recebe como parâmetros uma função, que será usada no decorrer do código. Outros exemplos como map e filter seguem a mesma linha.
 ### Função fold
 O foco deste post são as funções foldl e foldr. Segue abaixo as declarações respectivamente.
 {% highlight haskell %}
+
 	foldl :: (a -> b -> a) -> a -> [b] -> a
 	foldl f v [] = v
 	foldl f v (x:xs) = foldl f (f x v) xs
