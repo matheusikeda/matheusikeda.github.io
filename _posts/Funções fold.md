@@ -19,7 +19,8 @@ O foco deste post são as funções foldl e foldr. Segue abaixo as declarações
 	foldl :: (a -> b -> a) -> a -> [b] -> a
 	foldl f v [] = v
 	foldl f v (x:xs) = foldl f (f x v) xs
-	
+{% endhighlight %}  
+{% highlight haskell %}
 	foldr :: (a -> b -> b) -> b -> [a] -> b
 	foldl f v [] = v
 	foldl f v (x:xs) = f x (foldr f v xs) 
