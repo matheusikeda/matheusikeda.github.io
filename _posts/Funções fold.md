@@ -11,6 +11,7 @@ Código:
 	zipWith _ [] _ = []
 	zipWith _ _ [] = []
 	zipWith f (x:xs) (y:ys) = f x y : zipWith f xs ys
+	
 {% endhighlight %}  
 Na declaração do tipo, observa-se que a mesma recebe como parâmetros uma função, que será usada no decorrer do código. Outros exemplos como map e filter seguem a mesma linha.
 ### Função fold
@@ -19,8 +20,7 @@ O foco deste post são as funções foldl e foldr. Segue abaixo as declarações
 	foldl :: (a -> b -> a) -> a -> [b] -> a
 	foldl f v [] = v
 	foldl f v (x:xs) = foldl f (f x v) xs
-{% endhighlight %}  
-{% highlight haskell %}
+
 	foldr :: (a -> b -> b) -> b -> [a] -> b
 	foldl f v [] = v
 	foldl f v (x:xs) = f x (foldr f v xs) 
