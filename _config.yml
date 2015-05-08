@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://matheusikeda.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -18,7 +18,7 @@ theme:
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://matheusikeda.github.io/project">Matheus Ikeda</a>
 
   # Icons
-  rss: 
+  rss: false
   email_address:
   behance:
   bitbucket:
