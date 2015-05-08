@@ -15,11 +15,11 @@ theme:
     
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://matheusikeda.github.io/matheusikeda.github.io">Iniciação Científica</a>
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://matheusikeda.github.io/project">Iniciação Científica</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address:
   behance:
   bitbucket:
   dribbble:
@@ -28,11 +28,11 @@ theme:
   github: "matheusikeda"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: 
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange:
   steam:
   tumblr:
   twitter: 
