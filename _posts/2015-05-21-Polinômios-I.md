@@ -5,9 +5,13 @@ title: Polinômios I
 
 ### Polinômios
 Para praticar utilizaremos como tema polinômios. A representação destes basicamente é dado por uma lista na qual cada valor desta representa um coeficiente, e o grau da potência, o tamanho da mesma menos 1, dado que o último valor da lista representa o termo independente.
-Exemplo
+<br>
+Exemplo:
+<br>
 Função: f(x) = 3x4 + x2 + 2x -5
+<br>
 Lista: [3,0,1,2,-5]
+<br>
 Algumas operações com polinômios podem ser representadas por funções em Haskell. Primeiramente vamos verificar como a operação soma pode ser declarada. A soma de dois polinômios se dá pela soma dos coeficientes com coerência, logo, a dos elementos de uma lista a outra. Caso a soma seja de dois polinômios de potências diferentes torna-se necessário modificar a lista representada pelo o de menor potência, ou seja, normalizá-lo.
 {% highlight haskell %}
 normalize :: Polynomial -> Polynomial -> (Polynomial, Polynomial)
