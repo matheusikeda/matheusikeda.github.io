@@ -7,7 +7,7 @@ Para praticar utilizaremos como tema polinômios. A representação destes basic
 <br>
 Exemplo:
 {% highlight haskell %}
-Função: f(x) = \\(3x^4 + x^2 + 2x -5\\)
+Função: f(x) = \\(3x^4 + x^2 + 2x -5)\\
 <br>
 Lista: [3,0,1,2,-5]
 {% endhighlight %}  
