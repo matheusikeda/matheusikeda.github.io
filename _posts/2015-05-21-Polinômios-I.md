@@ -3,12 +3,11 @@ layout: post
 title: Polinômios I
 ---
 
-### Polinômios
 Para praticar utilizaremos como tema polinômios. A representação destes basicamente é dado por uma lista na qual cada valor desta representa um coeficiente, e o grau da potência, o tamanho da mesma menos 1, dado que o último valor da lista representa o termo independente.
 <br>
 Exemplo:
 {% highlight haskell %}
-Função: f(x) = 3x4 + x2 + 2x -5
+Função: f(x) = \\(3x^4 + x^2 + 2x -5\\)
 <br>
 Lista: [3,0,1,2,-5]
 {% endhighlight %}  
