@@ -30,6 +30,7 @@ Com esta função, a função soma pode ser desenvolvida.
 A função acima utiliza a função zipWith já apresentada anteriormente, a uncurry na qual recebe como parâmetro um função e um tupla e retorna o resultado de uma função tendo como parâmetros os elementos da tupla, e a normalize.
 A seguir um pequeno rastreio do que acontece na função.
 ![i](https://cloud.githubusercontent.com/assets/10578368/7751840/688a69ba-ffb2-11e4-8744-499933bd30d5.png)
+<br>
 Dado um polinômio, vamos realizar uma função que retorna o grau.
 {% highlight haskell %}
 type Polynomial = [Int]
